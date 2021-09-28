@@ -1,7 +1,5 @@
-mod print;
-mod vars;
+mod Derive;
 
-fn main() {
-    print::run();
-    vars::run();
+pub fn main() {
+    Derive::run();
 }
